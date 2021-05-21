@@ -1,0 +1,12 @@
+Welcome to my project PythonTest
+Here we are working on the technologies like automation using python 
+Firstly we have to check out the possibilites of automating the given task in multiple ways 
+Later we have to decide whether to choose which one.
+So Finally we have to go with one logic and
+We have to execute it to get it work done.
+So we have to finalize the things whichever will be possible to get work done
+I'm working with the commands which are very familiar to me in this project.
+I think we can achieve the things on time by specific timelines.]
+Make it possible to get on time
+
+
