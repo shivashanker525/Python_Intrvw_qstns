@@ -1,37 +1,30 @@
-# Check whether numvber is a prime or not
-def prime(n):
-    if n > 1:
-        for i in range(2,n):
-            if n % i == 0:
-                return False
+
+
+def prime_number(number):
+    if number < 2:
+        return 'Given number is not in range between 2 and above'
+    if number == 2:
+        return 'Number is a prime number'
+    else:
+        for i in range(2,number):
+            if number % i == 0:
+                return 'Number is not a prime number'
                 break
         else:
-            return True
+            return 'Number is a prime number'
         
-print(prime(22))
+# print(prime_number(23))
+# print(prime_number(21))
+# print(prime_number(15))
+# print(prime_number(151))
+# print(prime_number(125))
 
-# Prime number series between two numbers -series
-def prime_num_series(a,b):
-    for i in range(a,b):
+def prime_series(number1,number2):
+    for i in range(number1, number2):
         for j in range(2,i):
             if i % j == 0:
                 break
         else:
-            print(i,end=",")
-
-prime_num_series(100,500)
-
-
-list1 = [2,3,4,5,6,6,7,8,9,3,4,2,89,56,78,34,23,12,79,98]
-list11 = []
-for i in list1:
-    list11.append(prime(i))
-
-print(list11)
-n = 59
-for i in range(2,n):
-    if n % i == 0:
-        print("not a prime")
-        break
-else:
-    print("prime")
+            print(i, end=" ")
+        
+prime_series(100,200)
